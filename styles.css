@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url(./image/bagg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===== NAVBAR=====*/
+.myNavbar {
+    height: 20vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container {
+    max-width: 768;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.logo {
+    color: #371241;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(223, 201, 213)
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 25px 25px;
+
+}
+
+nav ul li a {
+    color: rgb(226, 212, 224);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+/*P {
+    text-align: center
+}
+
+
+/* ===== text=====*/
+.text {
+    float: left;
+    margin-right: 100px;
+    color: rgb(77, 31, 117);
+    font-weight: bold;
+
+  }
+
+/* ===== h1 to h4 =====*/
+h1 {
+    color: rgb(71, 69, 70);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h2,
+h3,
+h4 {
+    color: rgb(204, 31, 204)
+}
+
+/*===== HOME =====*/
+
+.home {
+    padding: 8rem 0 2rem;
+}
+
+.home__img {
+    width: 200px;
+    bottom: 10%;
+}
+
+.home__data {
+    align-content: initial;
+
+}
+
+.home__title {
+  /*  font-size: var(--big-font-size);*/
+    align-content: initial;
+    margin-right: auto;
+    width: 8em;
+
+}
+
+.home__info {
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+/* ===== ABOUT =====*/
+.about__container {
+    row-gap: 2rem;
+    text-align: left;
+}
+
+.about__subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
